@@ -1,4 +1,5 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { EventData } from '../../models/event-data.model';
 
 @Component({
   selector: 'app-event-preview',
@@ -8,7 +9,7 @@ import {Component, Input, OnInit} from '@angular/core';
 export class EventPreviewComponent implements OnInit {
 
   @Input()
-  data: any;
+  data: EventData;
 
   constructor() { }
 

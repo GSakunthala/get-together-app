@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EventService } from '../../services/event.service';
+import { EventData } from '../../models/event-data.model';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-event-showcase',
@@ -8,8 +10,10 @@ import { EventService } from '../../services/event.service';
 })
 export class EventShowcaseComponent implements OnInit {
 
-  public events = [];
-  constructor(private eventService: EventService) {
+  public events: EventData[] = [];
+  constructor(private eventService: EventService, private store: AngularFirestore) {
+    const things = store.collection('event').valueChanges();
+    things.subscribe(console.log);
   }
 
   ngOnInit() {
