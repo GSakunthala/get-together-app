@@ -11,6 +11,8 @@ import { EventShowcaseComponent } from './components/event-showcase/event-showca
 import { EventPreviewComponent } from './components/event-preview/event-preview.component';
 import { HttpClientModule } from '@angular/common/http';
 import { EventService } from './services/event.service';
+import { EventCreateComponent } from './components/event-create/event-create.component';
+import { EventListComponent } from './components/event-list/event-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { EventService } from './services/event.service';
     NavigationComponent,
     FeedComponent,
     EventShowcaseComponent,
-    EventPreviewComponent
+    EventPreviewComponent,
+    EventCreateComponent,
+    EventListComponent
   ],
   imports: [
     BrowserModule,
