@@ -23,7 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/common.css",
+              "src/assets/font/font.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true
