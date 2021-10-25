@@ -1,0 +1,30 @@
+.event .card {
+  padding : 0;
+  width: 230px;
+  height: 350px;
+}
+.event .image {
+  position: relative;
+  width: 230px;
+  height: 130px;
+  cursor: pointer;
+}
+.event .details {
+  position: relative;
+  margin-top: 10px;
+  padding: 15px;
+}
+.header {
+  padding: 10px 5px 0;
+  font-weight: 1000;
+  cursor: pointer;
+}
+.subheader {
+  margin-top: 0px;
+  padding: 0 5px;
+  font-size: 12px;
+}
+.content {
+  color: var(--primary-text-color);
+  padding: 0 5px;
+}

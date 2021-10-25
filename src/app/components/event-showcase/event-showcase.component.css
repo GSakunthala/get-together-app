@@ -1,0 +1,6 @@
+.showcase {
+  margin : 30px 0;
+}
+.showcase .flex {
+  flex-wrap: wrap;
+}

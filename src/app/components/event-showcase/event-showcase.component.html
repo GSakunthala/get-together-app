@@ -1,0 +1,11 @@
+<div class="showcase">
+  <div class="container">
+    <h1>Popular Events - Dublin</h1>
+<!--    <h2>Dublin</h2>-->
+    <div class="eventContainer flex">
+      <div *ngFor="let eventData of events">
+        <app-event-preview [data] = eventData ></app-event-preview>
+      </div>
+    </div>
+  </div>
+</div>

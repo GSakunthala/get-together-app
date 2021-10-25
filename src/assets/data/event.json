@@ -1,0 +1,85 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "Autumn Open Day  | TUS athlone Campus",
+      "organizer": "Sakunthala",
+      "date": "30/11/2021",
+      "time": "14:00 - 18:00",
+      "location" : "TUS Athlone Campus  ",
+      "summary": "Halooween fun"
+    },
+    {
+      "id" : "2",
+      "name": "Mat Fleetwoood Live Athlone Campus ",
+      "organizer": "Sakunthala",
+      "date": "30/11/2021",
+      "time": "14:00 - 18:00",
+      "location" : "Dublin",
+      "summary": "Halooween fun"
+    },
+    {
+      "id": "3",
+      "name": "Free -Understanding Conflict",
+      "organizer": "Sakunthala",
+      "date": "30/11/2021",
+      "time": "14:00 - 18:00",
+      "location" : "Dublin",
+      "summary": "Halooween fun"
+    },
+    {
+      "id" : "2",
+      "name": "Halloween event",
+      "organizer": "Sakunthala",
+      "date": "30/11/2021",
+      "time": "14:00 - 18:00",
+      "location" : "Dublin",
+      "summary": "Halooween fun"
+    },
+    {
+      "id": "3",
+      "name": "Halloween event",
+      "organizer": "Sakunthala",
+      "date": "30/11/2021",
+      "time": "14:00 - 18:00",
+      "location" : "Dublin",
+      "summary": "Halooween fun"
+    },
+    {
+      "id" : "2",
+      "name": "Halloween event",
+      "organizer": "Sakunthala",
+      "date": "30/11/2021",
+      "time": "14:00 - 18:00",
+      "location" : "Dublin",
+      "summary": "Halooween fun"
+    },
+    {
+      "id": "3",
+      "name": "Free- Media Skills Training",
+      "organizer": "Sakunthala",
+      "date": "30/11/2021",
+      "time": "14:00 - 18:00",
+      "location" : "St Kierans Community Centre • Athlone",
+      "summary": "Halooween fun"
+    },
+    {
+      "id" : "2",
+      "name": "Empowering communitites to connect wth Peatlands",
+      "organizer": "Sakunthala",
+      "date": "30/11/2021",
+      "time": "14:00 - 18:00",
+      "location" : "Community Wetlands Forum/Irish Rural Link, Moate",
+      "summary": "Halooween fun"
+    },
+    {
+      "id": "3",
+      "name": "Free- Commitee skills",
+      "organizer": "Sakunthala",
+      "date": "30/11/2021",
+      "time": "14:00 - 18:00",
+      "location" : "Sheraton Athlone Hotel • Athlone",
+      "summary": "Halooween fun"
+    }
+  ]
+}

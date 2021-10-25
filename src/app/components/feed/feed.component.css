@@ -1,0 +1,20 @@
+.feed  {
+  height: 500px;
+  position: relative;
+  background-color: var(--primary-color);
+  color: var(--white-text-color)
+}
+.feed .grid {
+  overflow: visible;
+  grid-template-columns: 45% auto;
+  gap: 30px;
+}
+
+.feed-text h1 {
+  font-size: 40px;
+}
+
+.feed-text p {
+  margin: 20px 0;
+}
+
