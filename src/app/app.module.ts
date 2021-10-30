@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { environment } from 'src/environments/environment';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { FeedComponent } from './components/feed/feed.component';
@@ -13,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { EventService } from './services/event.service';
 import { EventCreateComponent } from './components/event-create/event-create.component';
 import { EventListComponent } from './components/event-list/event-list.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { EventListComponent } from './components/event-list/event-list.component
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
   providers: [
     EventService

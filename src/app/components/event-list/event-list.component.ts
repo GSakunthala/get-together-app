@@ -11,5 +11,5 @@ export class EventListComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  
 }

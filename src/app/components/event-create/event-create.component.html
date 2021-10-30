@@ -1,3 +1,37 @@
-<p>
-  event-create works!
-</p>
+<div class="container">
+  
+  <div class = "card">
+    <div>
+      <h1>Publish your Event</h1>
+    </div>
+    <form [formGroup] = "registrationForm" (ngSubmit) = "onSubmit(registrationForm)">
+      <div class="formcontrol">
+        <label for="title">Event Title</label>
+        <div><input formControlName = "title" placeholder="Enter the name of your Event" /> </div>
+      </div>
+      <div class="formcontrol">
+        <label for="location">Event Location</label>
+        <div><input formControlName = "location" placeholder="Event Location" /></div>
+        
+      </div>
+      <div class="formcontrol">
+        <label for="summary">Event Summary</label>
+        <div><input formControlName = "summary" placeholder="Event Summary" /></div>
+        
+      </div>
+      <div class="formcontrol">
+        <label for="organizer">Event Organiser</label>
+        <div><input formControlName = "organizer" placeholder="Event Organiser" /></div>
+        
+      </div>
+      <div class="formcontrol">
+        <label for="date">Event Date </label>
+        <div><input formControlName = "date" placeholder="Event Date" /></div>
+       
+      </div>
+      <div class="formcontrol">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>

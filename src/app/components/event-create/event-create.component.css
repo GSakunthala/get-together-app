@@ -1,0 +1,10 @@
+.formcontrol {
+    margin: 10px 0;
+    padding: 15px 5px;
+    background-color: #e0e1e2;
+}
+.formcontrol input {
+    width: 100%;
+    padding: 0.5rem .2rem
+;
+}

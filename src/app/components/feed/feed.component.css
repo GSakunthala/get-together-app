@@ -1,13 +1,18 @@
 .feed  {
   height: 500px;
   position: relative;
-  background-color: var(--primary-color);
+  /*background-color: var(--primary-color);*/
+  background-image: url('/assets/img/background/celebrations.jpg');
+  /*background:url('https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg') no-repeat center;*/
+
   color: var(--white-text-color)
 }
 .feed .grid {
   overflow: visible;
   grid-template-columns: 45% auto;
   gap: 30px;
+  background:rgba(40,57,101,.9);
+
 }
 
 .feed-text h1 {
