@@ -3,7 +3,13 @@
   width: 230px;
   height: 350px;
 }
-.event .image {
+.event .image{
+  position: relative;
+  width: 230px;
+  height: 130px;
+  cursor: pointer;
+}
+.event .image > img{
   position: relative;
   width: 230px;
   height: 130px;

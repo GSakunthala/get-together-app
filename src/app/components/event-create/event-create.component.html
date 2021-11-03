@@ -30,6 +30,9 @@
        
       </div>
       <div class="formcontrol">
+        <input type="file" id="file" #userPhoto (change)="onFileSelected($event)" name="image" autocomplete="off"/>
+      </div>
+      <div class="formcontrol">
         <button type="submit">Submit</button>
       </div>
     </form>
