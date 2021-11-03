@@ -11,7 +11,8 @@ export const environment = {
     storageBucket: 'get-together-app-f9757.appspot.com',
     messagingSenderId: '384561412103',
     appId: '1:384561412103:web:3bb8634658990f5e6792a2'
-  }
+  },
+    apikey: 'AIzaSyCNyuN68xNVF3IhxiXX4bkp9zcZl9Ij8XQ'
 };
 
 /*

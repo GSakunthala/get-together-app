@@ -3,6 +3,8 @@ import { HttpClient } from '@angular/common/http';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { AngularFireStorage } from '@angular/fire/storage';
 import { EventData } from '../models/event-data.model';
+import { environment } from 'src/environments/environment';
+import { mergeMap } from 'rxjs/operators';
 
 
 @Injectable({
@@ -57,4 +59,16 @@ export class EventService {
   setSelectedEvent(event: EventData) {
     this.selectedEvent = event;
   }
+  getCoordinatesFromAddress(address: string) {
+    const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${environment.apikey}`;
+    return this.http
+      .get(url)
+      .pipe(mergeMap(data => {
+        const location = data.results[0].geometry.location;
+        const forecastUrl = `https://api.met.no/weatherapi/locationforecast/2.0/complete.json?lat=${location.lat}&lon=${location.lng}`;
+        return this.http.get(forecastUrl);
+      }));
+  }
+
+
 }
